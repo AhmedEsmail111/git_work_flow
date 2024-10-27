@@ -7,8 +7,11 @@ class CustomText extends StatelessWidget {
   Widget build(BuildContext context) {
     return const Scaffold(
       body: Center(
-        child: Text(
-          'text widget in register feature',
+        child: Padding(
+          padding: EdgeInsets.all(8.0),
+          child: Text(
+            'text widget in my development feature',
+          ),
         ),
       ),
     );

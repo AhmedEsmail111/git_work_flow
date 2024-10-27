@@ -11,7 +11,7 @@ class View extends StatelessWidget {
           Container(
             padding: const EdgeInsets.all(10),
             child: const Text(
-              'view widget',
+              'view in my development feature',
             ),
           ),
         ],
