@@ -10,7 +10,7 @@ class CustomText extends StatelessWidget {
         child: Padding(
           padding: EdgeInsets.all(8.0),
           child: Text(
-            'text widget in register feature',
+            'text widget in my development feature',
           ),
         ),
       ),
