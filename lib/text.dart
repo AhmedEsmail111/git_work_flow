@@ -6,8 +6,13 @@ class CustomText extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const Scaffold(
-      body: Text(
-        'text widget in login feature',
+      body: Center(
+        child: Padding(
+          padding: EdgeInsets.all(8.0),
+          child: Text(
+            'text widget in register feature',
+          ),
+        ),
       ),
     );
   }
